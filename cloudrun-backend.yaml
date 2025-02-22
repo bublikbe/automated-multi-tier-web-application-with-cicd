@@ -1,0 +1,21 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: backend-service
+  namespace: my-backend.js
+spec:
+  template:
+    spec:
+      containers:
+      - image: gcr.io/YOUR_PROJECT_ID/backend-node
+        env:
+        - name: DB_HOST
+          value: "10.x.x.x"  # Replace with your Cloud SQL private IP
+        - name: DB_USER
+          value: "app_user"
+        - name: DB_PASSWORD
+          value: "your_secure_password"
+        - name: DB_NAME
+          value: "myappdb"
+      vpcAccess:
+        connector: "my-vpc-connector"  # Ensure your Cloud SQL access is secure
