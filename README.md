@@ -1,13 +1,13 @@
- <h1>GCP Project- Automated Multi-Tier Web Application with CI/CD</h1><br><hr>
+#GCP Project- Automated Multi-Tier Web Application with CI/CD
  Welcome to the automated Multi-Tier Web Application with CI/CD project!
 
- <h3>📝Prerequisites:</h3><br>
+ ##📝Prerequisites:
  Before getting started ensure you have the following:<br>
  <ul>
  <li><a href="Google Cloud Platform" link="https://console.cloud.google.com">Google Cloud Platform<a> account</li><br>
  <li>Github account</li><br></a><ul>
 
- <h3>⚙️Setup:</h3><br>
+ ##⚙️Setup:
  <ol>
  <li>Create a New Google Project</li><br>
   <ol>
