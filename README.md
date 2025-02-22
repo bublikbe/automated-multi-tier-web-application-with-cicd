@@ -1,4 +1,4 @@
- GCP Project- Automated Multi-Tier Web Application with CI/CD<br><hr>
+ <b>GCP Project- Automated Multi-Tier Web Application with CI/CD</b><br><hr>
  Welcome to the automated Multi-Tier Web Application with CI/CD project!
 
  📝Prerequisites:<br>
